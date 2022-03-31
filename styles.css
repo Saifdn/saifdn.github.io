@@ -8,7 +8,7 @@
     position: absolute;
     width: 100%;
     height: 100vh;
-    background: #eff4fd;
+    background: #eff4fd; 
 }
 
 nav{
@@ -155,8 +155,7 @@ span{
     height: 100px;
     width: 50%;
     background-color: orange;
-    border-radius: 10px;
-    position: relative;
+    border-radius: 10px;    position: relative;
     margin: 8%;
     top: 10%;
     left: 5%;
@@ -178,11 +177,11 @@ span{
 }
 
 .igear1{
-    position: absolute;
+    position: relative;
     top: -2%;
-    right: -50%;
+    left: 83%;
     border-radius: 15px;
-    border: 3px solid;
+    border: 4px solid;
     border-color: rgb(180, 12, 12);
     width: 120px;
 }
@@ -209,5 +208,20 @@ span{
 .imageart{
     position: relative;
     width: 100%;
+}
+
+.gear1 a{
+    font-size: 13px;
+    position: absolute;
+    left: 8%;
+    top: 30%;
+    background: #212121;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
 }
 
