@@ -1,21 +1,200 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My Projects</title>
-  <style>
-    body { font-family: sans-serif; padding: 20px; }
-    .project { margin-bottom: 1.5rem; }
-    .title { font-weight: bold; font-size: 1.2em; }
-  </style>
-</head>
-<body>
-  <h1>Welcome to My Project Portfolio</h1>
-  <div id="project-list">
-    <!-- Projects will be loaded here -->
-  </div>
 
-  <script src="projects.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Saifudin - Software Engineer</title>
+    <meta name="description"
+        content="Software Engineering Student Portfolio - Showcasing projects, skills, and experience in modern web development">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">{'
+                <AS />'}
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">home</a></li>
+                <li><a href="#home" class="nav-link">about</a></li>
+                <li><a href="#skills" class="nav-link">skills</a></li>
+                <li><a href="#projects" class="nav-link">projects</a></li>
+                <li><a href="#contact" class="nav-link">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-greeting">$ whoami</div>
+                <h1 class="hero-title">Ahmad Saifudin</h1>
+                <h2 class="hero-subtitle">Software Engineering Student</h2>
+                <p class="hero-description">
+                    Passionate about crafting elegant solutions through code.
+                    Currently exploring the depths of full-stack development and modern technologies.
+                </p>
+
+                <div class="hero-code">
+                    <div class="terminal-header">
+                        <div class="terminal-dots">
+                            <div class="terminal-dot red"></div>
+                            <div class="terminal-dot yellow"></div>
+                            <div class="terminal-dot green"></div>
+                        </div>
+                        <div class="terminal-title">~/portfolio</div>
+                    </div>
+                    <span class="terminal-line">
+                        <span class="terminal-prompt">$</span> cat about.txt
+                    </span>
+                    <span class="terminal-line code-comment">// Always learning, always building</span>
+                    <span class="terminal-line">
+                        <span class="code-keyword">const</span> <span class="code-function">developer</span> = {
+                    </span>
+                    <span class="terminal-line">
+                        &nbsp;&nbsp;name: <span class="code-string">'Ahmad Saifudin'</span>,
+                    </span>
+                    <span class="terminal-line">
+                        &nbsp;&nbsp;focus: <span class="code-string">'Full-Stack Development'</span>,
+                    </span>
+                    <span class="terminal-line">
+                        &nbsp;&nbsp;passion: <span class="code-string">'Building the future'</span>
+                    </span>
+                    <span class="terminal-line">};</span>
+                    <span class="terminal-cursor"></span>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+
+                <div class="hero-social">
+                    <a href="https://github.com/Saifdn" class="social-link" target="_blank">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/ahmad-saifudin-9a26b2232/" class="social-link" target="_blank">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect width="4" height="12" x="2" y="9"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    <a href="mailto:saifudinahmad1234@gmail.com" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-profile">
+                <div class="profile-container">
+                    <div class="profile-ring"></div>
+                    <img src="https://media.licdn.com/dms/image/D5603AQHOv51ewMAiHA/profile-displayphoto-shrink_800_800/0/1677480558620?e=2147483647&v=beta&t=cYETDZvauDlDCO-yieSzj9QwRnVKWA6ioRNbRfC01j4"
+                        alt="Ahmad Saifudin" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>DevOps & Tools</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VSCode</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Terminal Section -->
+    <section class="section">
+        <div class="container">
+            <div class="terminal">
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <div class="terminal-dot red"></div>
+                        <div class="terminal-dot yellow"></div>
+                        <div class="terminal-dot green"></div>
+                    </div>
+                    <div class="terminal-title">~/current-status</div>
+                </div>
+                <span class="terminal-line">
+                    <span class="terminal-prompt">$</span> git status
+                </span>
+                <span class="terminal-line">On branch main</span>
+                <span class="terminal-line">Your branch is up to date with 'origin/main'</span>
+                <span class="terminal-line"></span>
+                <span class="terminal-line">
+                    <span class="terminal-prompt">$</span> echo "Currently working on..."
+                </span>
+                <span class="terminal-line">🚀 Building innovative web applications</span>
+                <span class="terminal-line">📚 Learning new technologies daily</span>
+                <span class="terminal-line">💡 Exploring AI and machine learning</span>
+                <span class="terminal-line">🌟 Open to exciting opportunities</span>
+                <span class="terminal-line"></span>
+                <span class="terminal-line">
+                    <span class="terminal-prompt">$</span> <span class="terminal-cursor"></span>
+                </span>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>

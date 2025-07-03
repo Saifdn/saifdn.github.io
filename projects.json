@@ -1,12 +1,38 @@
 [
-  {
-    "title": "Crops Monitoring System",
-    "description": "An IoT-based monitoring system using Arduino and web dashboard.",
-    "link": "https://github.com/yourusername/crops-monitoring-system"
-  },
-  {
-    "title": "MakanMate App",
-    "description": "A food buddy matching and review app for restaurants.",
-    "link": "https://github.com/yourusername/makanmate"
-  }
+    {
+        "id": 1,
+        "title": "E-Commerce Website",
+        "description": "A full-stack e-commerce platform built with modern web technologies. Features include user authentication, product catalog, shopping cart, and payment integration.",
+        "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
+        "image": null,
+        "demo": "https://example.com/ecommerce-demo",
+        "github": "https://github.com/yourusername/ecommerce-project"
+    },
+    {
+        "id": 2,
+        "title": "Task Management App",
+        "description": "A responsive task management application with drag-and-drop functionality, real-time updates, and team collaboration features.",
+        "technologies": ["React", "TypeScript", "Firebase", "CSS3"],
+        "image": null,
+        "demo": "https://example.com/task-app-demo",
+        "github": "https://github.com/yourusername/task-management"
+    },
+    {
+        "id": 3,
+        "title": "Weather Dashboard",
+        "description": "A beautiful weather dashboard that displays current weather conditions, forecasts, and weather maps using external APIs.",
+        "technologies": ["JavaScript", "HTML5", "CSS3", "Weather API"],
+        "image": null,
+        "demo": "https://example.com/weather-demo",
+        "github": "https://github.com/yourusername/weather-dashboard"
+    },
+    {
+        "id": 4,
+        "title": "Portfolio Website",
+        "description": "A personal portfolio website showcasing my projects and skills. Built with responsive design and smooth animations.",
+        "technologies": ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+        "image": null,
+        "demo": "https://example.com/portfolio-demo",
+        "github": "https://github.com/yourusername/portfolio"
+    }
 ]
